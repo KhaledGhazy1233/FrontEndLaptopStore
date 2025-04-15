@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+>>>>>>> a12653bb58b4b8c88934cc301cc3b0c1723e44d0
 body {
     margin: 0;
     padding: 0;
@@ -156,6 +160,7 @@ a{
     height: 400px;
 }
 /* -------------------------- */
+<<<<<<< HEAD
 .product-navbar {
     overflow-x: auto;
     white-space: nowrap;
@@ -185,6 +190,40 @@ a{
 .menu-bar .nav a:hover{
     color: #D10024;
 }
+=======
+.menu-bar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding-inline: 100px;
+}
+
+.menu-bar ul{
+    display: flex;
+    gap: 60px;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-bar ul li a{
+    color: #9CC3E7;
+    transition: all 0.3s;
+}
+
+.menu-bar ul li a:hover{
+    color: #D10024;
+}
+
+.menu-bar .word{
+    color: #2B2D42;
+    font-size: 30px;
+    font-weight: 700;
+    font-family:sans-serif;
+}
+
+
+
+>>>>>>> a12653bb58b4b8c88934cc301cc3b0c1723e44d0
 .Products{
     margin-top: 30px;
     display: flex;
@@ -315,6 +354,7 @@ a{
 .card-container:hover .add-to-cart {
     bottom: -30px;
     opacity: 1;
+<<<<<<< HEAD
 }
 /* -----footer----- */
 
@@ -388,3 +428,55 @@ a{
     cursor: pointer;
   }
   
+=======
+=======
+
+nav{
+    background-color: #5B2F94;
+}
+#addnew .new{
+    background-color: #5B2F94;
+    color: rgb(255,255,255);
+    text-decoration: none;
+    border: #5B2F94 1px solid;
+    border-radius: 10%;
+}
+fieldset .d-flex p input{
+    width: 50px;
+    height: 20px;
+    border: 1px solid rgb(78,78,78);
+    border-radius: 20%;
+}
+.action-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.action-icons i {
+    font-size: 1.2em; 
+    cursor: pointer;
+    transition: color 0.3s ease; 
+}
+
+.action-icons i:hover {
+    color: #ff6b6b; 
+}
+
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th {
+    background-color: #f8f9fa; 
+    font-weight: 600;
+}
+
+.table-responsive {
+    overflow-x: auto;
+>>>>>>> 02cd4b28ef065ef6c17e1c4d0133f56ae2931dd0
+}
+>>>>>>> a12653bb58b4b8c88934cc301cc3b0c1723e44d0
